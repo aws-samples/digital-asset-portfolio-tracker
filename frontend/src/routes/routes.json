@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/",
+    "name": "Home",
+    "hideHeadline": true
+  },
+  {
+    "path": "/about",
+    "showInHeader": true,
+    "requireAccount": false
+  },
+  {
+    "path": "/settings",
+    "requireAccount": false
+  }
+]

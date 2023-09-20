@@ -1,0 +1,19 @@
+:root {
+  --amplify-colors-brand-primary-10: rgb(248, 174, 46);
+  --amplify-colors-brand-primary-20: var(--amplify-colors-brand-primary-10);
+  --amplify-colors-brand-primary-60: rgb(245, 162, 20);
+  --amplify-colors-brand-primary-80: rgb(255, 153, 0);
+  --amplify-colors-brand-primary-90: rgb(217, 119, 6);
+  --amplify-colors-font-inverse: rgb(15, 23, 42);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-amplify-authenticator][data-variation='modal'] {
+  background-color: #161e2d;
+}
