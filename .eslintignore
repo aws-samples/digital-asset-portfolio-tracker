@@ -1,0 +1,6 @@
+node_modules
+dist
+cdk.out
+package-lock.json
+.venv
+.pytest_cache
