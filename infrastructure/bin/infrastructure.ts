@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
+import { AwsSolutionsChecks } from 'cdk-nag';
 import { SourceCodeStack } from '../lib/stacks/source-code-stack';
 import { AuthenticationStack } from '../lib/stacks/authentication-stack';
 import { FrontEndStack } from '../lib/stacks/front-end-stack';
@@ -8,6 +9,10 @@ import { FrontEndStack } from '../lib/stacks/front-end-stack';
 // Initialize our CDK App https://aws.amazon.com/cdk/
 
 const app = new cdk.App();
+
+// Configure cdk-nag for security and compliance of our CDK code
+
+cdk.Aspects.of(app).add(new AwsSolutionsChecks({ verbose: true }));
 
 // Set the environment for all of our CDK Stacks
 // Set to a region supported by AMB Query: https://docs.aws.amazon.com/managed-blockchain/latest/ambq-dg/key-concepts.html

@@ -35,6 +35,7 @@
     "aws-lambda": "^1.0.7",
     "axios": "^1.4.0",
     "bitcoinjs-lib": "^6.1.3",
+    "cdk-nag": "^2.27.136",
     "constructs": "^10.0.0",
     "ecpair": "^2.1.0",
     "source-map-support": "^0.5.21"
