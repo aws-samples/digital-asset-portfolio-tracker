@@ -3,12 +3,13 @@ import { validateBitcoinAddress, validateEthereumAddress } from './addresses';
 
 export function getNetworkIcon(network: string) {
   if (network.includes('ethereum')) {
-    return '/eth.svg';
+    return 'https://assets.coingecko.com/coins/images/279/small/ethereum.png';
   } else if (network.includes('bitcoin')) {
-    return '/btc.svg';
+    return 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png';
   }
 
   console.warn('Could not find network icon for:', network);
+
   return '';
 }
 
