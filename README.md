@@ -1,20 +1,11 @@
-# AWS Portfolio Tracker
+# Digital Asset Portfolio Tracker
 
-This repository contains the code for the AWS Portoflio web application:
+_React web application that utilizes Amazon Managed Blockchain Query to create a digital asset portfolio tracker for Bitcoin and Ethereum._
 
-- AWS infrastructure as code written in TypeScript with the AWS Cloud Development Kit (CDK)
-- AWS Lambda functions written in JavaScript and/or TypeScript
-- React frontend web application written in React and TypeScript
+This repository contains the code for the Digital Asset Portoflio Tracker web application:
 
-## Solution Overview
-
-- Amazon Managed Blockchain Query
-- Amazon Managed Blockchain Access
-- AWS Lambda
-- Amazon Cognito
-- Amazon API Gateway
-- AWS Amplify
-- AWS CDK
+- AWS infrastructure as code written in TypeScript with the [AWS Cloud Development Kit (CDK)](https://aws.amazon.com/cdk/)
+- Frontend web application written in React and TypeScript
 
 ## Project folder structure
 
@@ -24,13 +15,12 @@ This repository contains the code for the AWS Portoflio web application:
 
 `frontend/`
 
-- Source code and build tools for the front end web app
+- Source code and build tools for the frontend web app
 
 `infrastructure/`
 
 - AWS CDK project
-  - Source code and build tools to deploy infrastructure on AWS
-- Lambda source code
+- Source code and tools to deploy infrastructure on AWS
 
 ## Prerequisites
 
@@ -41,9 +31,24 @@ The below prerequisites are required to develop, build, and run both the `infras
 3. The AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 4. AWS CLI configured with your account credentials: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
+## Developer prerequisites
+
+There are a few optional tools that can be used to enhance developer experience:
+
+- VS Code
+- VS Code extensions:
+
+  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    - Used to highlight and fix TypeScript code
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - Used to format code
+    - If using VS Code, the `/.vscode/settings.json` file includes settings to format when pasting and saving code
+
+  **NOTE:** There are git pre-commit hooks setup to automatically Lint and Format the code. Installing the above extensions will greatly improve this experience.
+
 ## Getting started
 
-### Infrastructure
+### Deploy the AWS Services for this project with the AWS CDK
 
 Change into the `~/infrastructure/` directory of this repo:
 
@@ -51,9 +56,9 @@ Change into the `~/infrastructure/` directory of this repo:
   cd infrastructure
 ```
 
-See the `README.md` file in `./infrastructure` to get started.
+See [/infrastructure/README.md](/infrastructure/README.md) to get started.
 
-### Frontend
+### Develop and run the React JS web app locally
 
 Change into the `~/frontend/` directory of this repo:
 
@@ -61,4 +66,4 @@ Change into the `~/frontend/` directory of this repo:
   cd frontend
 ```
 
-See the `README.md` file in `./frontend` to get started.
+See [/frontend/README.md](/frontend/README.md) to get started.
