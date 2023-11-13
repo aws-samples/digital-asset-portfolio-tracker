@@ -67,3 +67,17 @@ Change into the `~/frontend/` directory of this repo:
 ```
 
 See [/frontend/README.md](/frontend/README.md) to get started.
+
+## Contributors
+
+Shoutout to the contributors who made this project possible!
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/astan54321"><img src="https://avatars.githubusercontent.com/u/25271754?v=3?s=100" width="100px;" alt="Andrei Stan"/><br /><sub><b>Andrei Stan</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/shreyamohanty"><img src="https://avatars.githubusercontent.com/u/46392520?v=3?s=100" width="100px;" alt="Shreya Mohanty"/><br /><sub><b>Shreya Mohanty</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/sumeeyahthaq"><img src="https://avatars.githubusercontent.com/u/104119776?v=3?s=100" width="100px;" alt="Sumeeyah Haq"/><br /><sub><b>Sumeeyah Haq</b></sub></a></td>
+    </tr>
+  </tbody>
+</table>
